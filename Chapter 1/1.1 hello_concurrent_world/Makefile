@@ -1,6 +1,6 @@
 PROGRAM   = main
 CXX       = g++
-CXXFLAGS  = -g -Wall -Wextra -pedantic -std=c++17
+CXXFLAGS  = -g -Wall -Wextra -pedantic -std=c++2a
 LDLIBS    = -lpthread
 
 $(PROGRAM): main.o
